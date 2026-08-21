@@ -4,7 +4,7 @@ Real-world patterns for building AI agent systems with Claude Code — commands,
 
 ## What This Is
 
-A collection of battle-tested patterns extracted from running an AI agent system with **37 custom commands, 53 specialized agents, and 19 skill modules** in a 2-person company since April 2026.
+A collection of battle-tested patterns extracted from running an AI agent system with **37 custom commands, 53 specialized agents, and 19 skill modules** in a 2-person company since March 2026.
 
 These aren't toy examples. Every pattern here has been used daily in production.
 
