@@ -4,9 +4,9 @@ Real-world patterns for building AI agent systems with Claude Code — commands,
 
 ## What This Is
 
-A collection of battle-tested patterns extracted from running an AI agent system with **37 custom commands, 53 specialized agents, and 19 skill modules** in a 2-person company since March 2026.
+A collection of patterns extracted from the Claude Code setup I use in my own day-to-day work at a 2-person company.
 
-These aren't toy examples. Every pattern here has been used daily in production.
+The examples here are simplified, but each pattern comes from a setup that is actually in use.
 
 ## Architecture Overview
 
@@ -48,7 +48,7 @@ User runs /plan
 │   ├── CLAUDE.md        # System prompt (router)
 │   └── .claude/
 │       ├── commands/    # 5 workflow commands
-│       ├── agents/      # 3 department agents
+│       ├── agents/      # 3 example agents
 │       ├── skills/      # 1 shared knowledge base
 │       └── settings.json
 │
@@ -98,9 +98,18 @@ Every pattern assumes resource constraints. Agents must provide actionable alter
 - Markdown — all configuration
 - No dependencies, no build step
 
+## Related: Public Portfolio Demo
+
+A demo of sales and meeting workflow automation: https://ai-sales-workflow-demo.vercel.app
+
+- Workflow (5 steps, showing where AI drafts and where a person reviews): https://ai-sales-workflow-demo.vercel.app/#workflow
+- Interactive demo: https://ai-sales-workflow-demo.vercel.app/demo
+
+**Note:** This is a self-initiated, self-built project. All data is fictional and the integrations are simulated (AI generation and external services are mocked). It is not client work and does not show production results.
+
 ## Author
 
-Built by [Ryo Minakawa](https://github.com/fcbno1221-lgtm) — AI automation engineer helping small teams scale with Claude Code.
+Built by [Ryo Minakawa](https://github.com/fcbno1221-lgtm) — business automation engineer working with Python, APIs and generative AI. Business automation for 3–4 years (starting with GAS); of that, about 1.5 years developing with Python, TypeScript and generative AI. I take on small, clearly scoped freelance projects, plus minor Shopify fixes.
 
 ## License
 
